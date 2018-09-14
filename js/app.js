@@ -23,3 +23,14 @@
 // vi. You should be spending 75-80% of your time thinking about how to solve
 // the problem and 25-20% of your time typing the actual code
 
+// B. Strings
+// 1.
+let firstVariable = "Hello World";
+firstVariable = 5;
+let secondVariable = firstVariable;
+secondVariable = "Hulk Smash";
+console.log(firstVariable);
+
+// 2.
+let yourName = "Steven";
+console.log(`Hello, my name is ${yourName}`);
