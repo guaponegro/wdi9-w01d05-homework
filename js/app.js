@@ -1,4 +1,4 @@
-// 1. Variables & Datatypes
+// I. Variables & Datatypes
 
 // A. Q + A
 // i. We assign a value to a variable by using 1 = sign
@@ -62,9 +62,25 @@
 // }
 
 // E. Driver's Ed
-const age = 27;
-if(age >= 16){
-    console.log("Here are the keys");
-} else {
-    console.log("Sorry, you're too young");
+// const age = 27;
+// if(age >= 16){
+//     console.log("Here are the keys");
+// } else {
+//     console.log("Sorry, you're too young");
+// }
+
+// II. Loops
+
+// A. The basics
+for(let i = 0; i <= 10; i++){
+    console.log(i);
+}
+
+for(let i = 10; i <= 400; i++){
+    console.log(i);
+}
+
+for(let i = 12; i < 4000; i++){
+    console.log(i);
+    i+=2;
 }
