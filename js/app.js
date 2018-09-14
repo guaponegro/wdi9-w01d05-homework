@@ -144,11 +144,19 @@
 // console.log(ourClass);
 
 // E. Mix It Up
-const myArray = [5, 10, 500, 20];
+// const myArray = [5, 10, 500, 20];
 
-myArray.push("Egon", "Robert");
-myArray.unshift("Bob Marley");
-myArray.pop();
-myArray.reverse();
-// The only mutationis that I reversed the array
-console.log(myArray);
+// myArray.push("Egon", "Robert");
+// myArray.unshift("Bob Marley");
+// myArray.pop();
+// myArray.reverse();
+// // The only mutation is that I reversed the array
+// console.log(myArray);
+
+// F. Biggie Smalls
+const num = 23;
+if(num < 100){
+    console.log("little number");
+} else if(num >= 100){
+    console.log("big number");
+}
