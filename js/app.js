@@ -136,9 +136,19 @@
 // console.log(randomThings[2]);
 
 // D. Change values
-const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+// const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 
-console.log(ourClass[2]);
-ourClass[4] = "Octocat";
-ourClass.push("Cloud City");
-console.log(ourClass);
+// console.log(ourClass[2]);
+// ourClass[4] = "Octocat";
+// ourClass.push("Cloud City");
+// console.log(ourClass);
+
+// E. Mix It Up
+const myArray = [5, 10, 500, 20];
+
+myArray.push("Egon", "Robert");
+myArray.unshift("Bob Marley");
+myArray.pop();
+myArray.reverse();
+// The only mutationis that I reversed the array
+console.log(myArray);
