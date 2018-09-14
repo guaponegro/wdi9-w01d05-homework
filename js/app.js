@@ -117,3 +117,10 @@
 
 // E. Multiples of 3 and 5
 // Already completed it
+
+// III. Arrays & Control flow
+
+// A. Talk about it:
+// 1. The things in an array are called elements
+// 2. No, arrays do not guarantee things will be in order
+// 3. Anything that you turn into a list can be an array
