@@ -126,4 +126,11 @@
 // 3. Anything that you turn into a list can be an array
 
 // B. Easy Does It
-const quotes = ["Hulk Smash", "It's Morphin' Time", "Suit up!"];
+// const quotes = ["Hulk Smash", "It's Morphin' Time", "Suit up!"];
+
+// C. Accessing elements
+const randomThings = [1, 10, "Hello", true];
+
+console.log(randomThings[0]);
+randomThings[2] = "World";
+console.log(randomThings[2]);
