@@ -124,3 +124,6 @@
 // 1. The things in an array are called elements
 // 2. No, arrays do not guarantee things will be in order
 // 3. Anything that you turn into a list can be an array
+
+// B. Easy Does It
+const quotes = ["Hulk Smash", "It's Morphin' Time", "Suit up!"];
