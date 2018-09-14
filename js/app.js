@@ -129,8 +129,16 @@
 // const quotes = ["Hulk Smash", "It's Morphin' Time", "Suit up!"];
 
 // C. Accessing elements
-const randomThings = [1, 10, "Hello", true];
+// const randomThings = [1, 10, "Hello", true];
 
-console.log(randomThings[0]);
-randomThings[2] = "World";
-console.log(randomThings[2]);
+// console.log(randomThings[0]);
+// randomThings[2] = "World";
+// console.log(randomThings[2]);
+
+// D. Change values
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+
+console.log(ourClass[2]);
+ourClass[4] = "Octocat";
+ourClass.push("Cloud City");
+console.log(ourClass);
