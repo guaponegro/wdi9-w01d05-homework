@@ -102,14 +102,18 @@
 // }
 
 // D. Savings Account
-let bank_account = 0;
-for(let i = 1; i <= 10; i++){
-    bank_account += i;
-}
-console.log(bank_account);
+// let bank_account = 0;
+// for(let i = 1; i <= 10; i++){
+//     bank_account += i;
+// }
+// console.log(bank_account);
 
-let bonus = 0;
-for(let i = 1; i <= 100; i++){
-    bonus += i*2;
-}
-console.log(bonus);
+// let bonus = 0;
+// for(let i = 1; i <= 100; i++){
+//     bonus += i*2;
+// }
+// console.log(bonus);
+
+
+// E. Multiples of 3 and 5
+// Already completed it
