@@ -245,14 +245,32 @@
 // console.log(isVowel("Z"));
 
 // E. getTwoLengths
-let lengthOne = 0;
-let lengthTwo = 0;
-const getTwoLengths = (str1, str2) => {
-    for(i = 0; i < str1.length; i++){
-       lengthOne += 1;
-    } for(i = 0; i < str2.length; i++){
-        lengthTwo += 1;
-    }
-    return [lengthOne, lengthTwo];
+// let lengthOne = 0;
+// let lengthTwo = 0;
+// const getTwoLengths = (str1, str2) => {
+//     for(i = 0; i < str1.length; i++){
+//        lengthOne += 1;
+//     } for(i = 0; i < str2.length; i++){
+//         lengthTwo += 1;
+//     }
+//     return [lengthOne, lengthTwo];
+// }
+// console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+// F. getMultipleLengths
+
+const getMultipleLengths = (arr) => {
+    const newArr = [];
+    for (let i = 0; i < arr.length; i++ ){
+        newArr.push(arr[i].length);
+      }
+      return newArr;
 }
-console.log(getTwoLengths("Hank", "Hippopopalous"));
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+
+
+
+
+
+
