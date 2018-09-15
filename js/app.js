@@ -234,12 +234,25 @@
 // console.log(calculateCube(6));
 
 // D. isVowel
- const isVowel = (character) => {
-    character = character.toLowerCase();
-    if(character === "a" || character === "e" || character === "i" || character === "o" || character === "u") {
-        return true;
-    } else {
-        return false;
+//  const isVowel = (character) => {
+//     character = character.toLowerCase();
+//     if(character === "a" || character === "e" || character === "i" || character === "o" || character === "u") {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(isVowel("Z"));
+
+// E. getTwoLengths
+let lengthOne = 0;
+let lengthTwo = 0;
+const getTwoLengths = (str1, str2) => {
+    for(i = 0; i < str1.length; i++){
+       lengthOne += 1;
+    } for(i = 0; i < str2.length; i++){
+        lengthTwo += 1;
     }
+    return [lengthOne, lengthTwo];
 }
-console.log(isVowel("Z"));
+console.log(getTwoLengths("Hank", "Hippopopalous"));
