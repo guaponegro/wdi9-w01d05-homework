@@ -220,9 +220,15 @@
 // I already did this one
 
 // B. printCool
-const printCool = (name) => {
-    if(name.length >= 5){
-        return `${name} is cool`;
-    }
-};
-console.log(printCool("Django"));
+// const printCool = (name) => {
+//     if(name.length >= 5){
+//         return `${name} is cool`;
+//     }
+// };
+// console.log(printCool("Django"));
+
+// C. calculateCube
+const calculateCube = (num) => {
+    return (num * num * num);
+}
+console.log(calculateCube(6));
