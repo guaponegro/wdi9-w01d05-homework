@@ -270,17 +270,29 @@
 
 // G. maxOfThree
 
-const maxOfThree = (num1, num2, num3) => {
-    return Math.max(num1, num2, num3);
-     if (num1 === num2 || num1 === num3) {
-        return num1;
-    } else if (num2 === num3) {
-          return num2;
+// const maxOfThree = (num1, num2, num3) => {
+//     return Math.max(num1, num2, num3);
+//      if (num1 === num2 || num1 === num3) {
+//         return num1;
+//     } else if (num2 === num3) {
+//           return num2;
+//         }
+// }
+
+// console.log(maxOfThree(6, 9, 1));
+
+// H. printLongestWord
+
+const printLongestWord = (arr) => {
+    let longestWord = "";
+    for(i = 0; i < arr.length; i++){
+        if(arr[i].length > longestWord.length){
+            longestWord = arr[i];
         }
+    }
+    return longestWord;
 }
-
-console.log(maxOfThree(6, 9, 1));
-
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
 
 
