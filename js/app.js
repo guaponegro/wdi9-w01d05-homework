@@ -228,7 +228,18 @@
 // console.log(printCool("Django"));
 
 // C. calculateCube
-const calculateCube = (num) => {
-    return (num * num * num);
+// const calculateCube = (num) => {
+//     return (num * num * num);
+// }
+// console.log(calculateCube(6));
+
+// D. isVowel
+ const isVowel = (character) => {
+    character = character.toLowerCase();
+    if(character === "a" || character === "e" || character === "i" || character === "o" || character === "u") {
+        return true;
+    } else {
+        return false;
+    }
 }
-console.log(calculateCube(6));
+console.log(isVowel("Z"));
