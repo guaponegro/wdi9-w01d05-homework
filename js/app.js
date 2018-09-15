@@ -218,3 +218,11 @@
 
 // A. printGreeting
 // I already did this one
+
+// B. printCool
+const printCool = (name) => {
+    if(name.length >= 5){
+        return `${name} is cool`;
+    }
+};
+console.log(printCool("Django"));
