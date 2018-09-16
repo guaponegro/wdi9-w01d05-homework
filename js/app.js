@@ -297,11 +297,33 @@
 
 // I. transmosgrify
 
-const transmogrify = (num1, num2, num3) => {
-    return Math.pow((num1 * num2), num3);
+// const transmogrify = (num1, num2, num3) => {
+//     return Math.pow((num1 * num2), num3);
+// }
+// console.log(transmogrify(5, 3, 2));
+
+// J. reverseWordOrder v2
+
+const reverseWordOrder = (str) => {
+    let newArr = [];
+    let temp = " ";
+    for(let i = 0; i < str.length; i++) {
+        if(str[i] === " "){
+            newArr.push(temp);
+            temp = " ";
+        } else {
+            temp += str[i]; 
+        }
+    }
+    if(temp.length >= 0) {
+        newArr.push(temp);
+    }
+    let revStr = "";
+    for(let x = newArr.length - 1; x >= 0; x--){
+        revStr += " "+newArr[x];
+    }
+    return revStr;
 }
-console.log(transmogrify(5, 3, 2));
-
-
+console.log(reverseWordOrder("Ishmael me Call"));
 
 
