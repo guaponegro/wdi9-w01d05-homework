@@ -368,5 +368,7 @@ const user = {
 
 user.email = "stevenrocksmysocks@gmail.com";
 user.age = user.age +1;
-
 user.location = "Denver";
+user.purchased.push("carbohydrates");
+user.purchased.push("piece of mind", "Merino jodhpurs");
+console.log(user.purchased[2]);
