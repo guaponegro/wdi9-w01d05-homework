@@ -348,10 +348,20 @@
 // };
 // console.log(randomInt());
 
-const quotes = ["Hulk Smash", "It's Morphin' Time!", "Suit up!", "Snkkt", "Great Scott!!"];
+// const quotes = ["Hulk Smash", "It's Morphin' Time!", "Suit up!", "Snkkt", "Great Scott!!"];
 
-const getRandomElement = () => {
-    return quotes[Math.floor(Math.random() * quotes.length)];
+// const getRandomElement = () => {
+//     return quotes[Math.floor(Math.random() * quotes.length)];
+// }
+// console.log(getRandomElement());
+
+// V. Objects
+
+// A. Make a user object
+
+const user = {
+    name: "Steven",
+    email: "stevenrocks@gmail.com",
+    age: 27,
+    purchased: [],
 }
-console.log(getRandomElement());
-
