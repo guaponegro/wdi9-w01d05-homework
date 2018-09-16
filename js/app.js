@@ -304,26 +304,54 @@
 
 // J. reverseWordOrder v2
 
-const reverseWordOrder = (str) => {
-    let newArr = [];
-    let temp = " ";
-    for(let i = 0; i < str.length; i++) {
-        if(str[i] === " "){
-            newArr.push(temp);
-            temp = " ";
-        } else {
-            temp += str[i]; 
-        }
-    }
-    if(temp.length >= 0) {
-        newArr.push(temp);
-    }
-    let revStr = "";
-    for(let x = newArr.length - 1; x >= 0; x--){
-        revStr += " "+newArr[x];
-    }
-    return revStr;
-}
-console.log(reverseWordOrder("Ishmael me Call"));
+// const reverseWordOrder = (str) => {
+//     let newArr = [];
+//     let temp = " ";
+//     for(let i = 0; i < str.length; i++) {
+//         if(str[i] === " "){
+//             newArr.push(temp);
+//             temp = " ";
+//         } else {
+//             temp += str[i]; 
+//         }
+//     }
+//     if(temp.length >= 0) {
+//         newArr.push(temp);
+//     }
+//     let revStr = "";
+//     for(let x = newArr.length - 1; x >= 0; x--){
+//         revStr += " "+newArr[x];
+//     }
+//     return revStr;
+// }
+// console.log(reverseWordOrder("Ishmael me Call"));
 
+// K. Get down and dirty with Math.random ()
+
+// const randomInt = (int) => {
+//     return Math.floor(Math.random() * 9) + 1;
+// };
+// console.log(randomInt());
+
+// const diffInt = (int) => {
+//     return Math.floor(Math.random() * 99) + 10;
+// };
+// console.log(diffInt());
+
+// const altInt = (int) => {
+//     return Math.random() * 13266 + 532;
+// };
+// console.log(altInt());
+
+// const randomInt = (int) => {
+//     return Math.random() * 9 + 1;
+// };
+// console.log(randomInt());
+
+const quotes = ["Hulk Smash", "It's Morphin' Time!", "Suit up!", "Snkkt", "Great Scott!!"];
+
+const getRandomElement = () => {
+    return quotes[Math.floor(Math.random() * quotes.length)];
+}
+console.log(getRandomElement());
 
