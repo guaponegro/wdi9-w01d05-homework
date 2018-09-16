@@ -283,17 +283,24 @@
 
 // H. printLongestWord
 
-const printLongestWord = (arr) => {
-    let longestWord = "";
-    for(i = 0; i < arr.length; i++){
-        if(arr[i].length > longestWord.length){
-            longestWord = arr[i];
-        }
-    }
-    return longestWord;
-}
-console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+// const printLongestWord = (arr) => {
+//     let longestWord = "";
+//     for(i = 0; i < arr.length; i++){
+//         if(arr[i].length > longestWord.length){
+//             longestWord = arr[i];
+//         }
+//     }
+//     return longestWord;
+// }
+// console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
+
+// I. transmosgrify
+
+const transmogrify = (num1, num2, num3) => {
+    return Math.pow((num1 * num2), num3);
+}
+console.log(transmogrify(5, 3, 2));
 
 
 
