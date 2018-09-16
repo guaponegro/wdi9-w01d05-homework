@@ -366,6 +366,7 @@ const user = {
     purchased: [],
 }
 
+
 user.email = "stevenrocksmysocks@gmail.com";
 user.age = user.age +1;
 user.location = "Denver";
@@ -392,3 +393,15 @@ for(i = 0; i < user.purchased.length; i++){
 for(i = 0; i < user.friend.purchased.length; i++){
     console.log(user.friend.purchased[i]);
 }
+
+const updateUser = () => {
+    console.log(user.age = user.age +1);
+    return user.name = user.name.toUpperCase();
+}
+console.log(updateUser());
+
+const oldAndLoud = (person) => {
+    console.log(user.age = user.age +1);
+    return user.name = user.name.toUpperCase();
+}
+console.log(oldAndLoud(user));
