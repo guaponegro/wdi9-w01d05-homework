@@ -372,3 +372,15 @@ user.location = "Denver";
 user.purchased.push("carbohydrates");
 user.purchased.push("piece of mind", "Merino jodhpurs");
 console.log(user.purchased[2]);
+
+user.friend = {
+    name: "Case Keenum",
+    age: 31,
+    location: "Denver",
+    purchased: [],
+}
+console.log(user.friend.name);
+console.log(user.friend.location);
+user.friend.age = 55;
+user.friend.purchased.push("The One Ring", "A latte");
+console.log(user.friend.purchased[1]);
