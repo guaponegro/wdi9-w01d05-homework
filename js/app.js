@@ -365,3 +365,6 @@ const user = {
     age: 27,
     purchased: [],
 }
+
+user.email = "stevenrocksmysocks@gmail.com";
+user.age = user.age +1;
