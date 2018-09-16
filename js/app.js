@@ -368,3 +368,5 @@ const user = {
 
 user.email = "stevenrocksmysocks@gmail.com";
 user.age = user.age +1;
+
+user.location = "Denver";
